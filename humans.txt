@@ -1,0 +1,14 @@
+/*CREATED BY*/
+Designer/Developer: Madeleine Gagne
+Site: artofmadeleine.tumblr.com
+Twitter: @madeleineadele
+Location: Ottawa, Canada
+
+/*THANKS*/
+Thanks to YOU for visiting this website and reading this blurb!
+
+/*SITE*/
+Last update: December 2013
+Standards: HTML, CSS3
+Components: Jquery
+Software used: Adobe, Sublime Text 2, Livereload

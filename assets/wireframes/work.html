@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Works of Neil Gagne &middot; Ottawa Artist:Ceramics, Paintings, and more.</title>
+		
+		<link rel="stylesheet" href="swipebox/swipebox.css">
+		<link href="css/reset.css" rel="stylesheet">
+		<link href="css/general.css" rel="stylesheet">
+
+		<meta name="handheldfriendly" content="true">
+		<meta name="mobileoptimized" content="240">
+		<meta name="viewport" content="width=device-width,initial-scale=1" >
+
+		<meta name="description" content="The works of Ottawa artist Neil Gagne">
+		<meta name="keywords" content="ottawa, artist, ceramics, painting, printmaking, abstract">
+		<META name="author" content="Neil Gagne, neiljgagne@gmail.com">
+		<META name="copyright" content="copyright 2013 Neil Gagne">
+		<META name="ICBM" content="45.4214, -75.6919">
+
+		<link rel="author" href="robots.txt">
+		<link rel="author" href="humans.txt">
+
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+		<link rel="shortcut icon" href="favicon.ico"/>
+		
+	</head>
+
+<body>
+	<header>
+		<div class="neil">
+			<h1><a class="home-link" href="index.html">NEIL GAGNE</a></h1>
+		</div>
+		<nav class="nav nav-top">
+			<ul>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="work.html">WORK</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		<nav>
+	</header>
+		<main class="main">
+			<div class="sidebar left">
+				<nav class="nav nav-side">
+					<ul>
+					<li class="ease-all"><a href="about.html">ABOUT</a></li>
+					<li class="ease-all"><a href="work.html">WORK</a></li>
+					<li class="ease-all"><a href="contact.html">CONTACT</a></li>
+					</ul>
+				<nav>
+			</div>
+	<div class="right">
+		<div class="box">
+			<a href="images/big/abstract1.jpg" class="swipebox" title="Babes 1">
+			<img src="images/small/abstract1.jpg" alt="abstract painting" height="100px" width="100px">
+			</a>
+		</div>
+		<div class="box">
+			<a href="images/big/abstract2.jpg" class="swipebox" title="Babes 2">
+			<img src="images/small/abstract2.jpg" alt="abstract painting" height="100px" width="100px">
+			</a>
+		</div>
+		<div class="box">
+			<a href="images/big/ceramics1.jpg" class="swipebox" title="Ceramic Bowls">
+			<img src="images/small/ceramics1.jpg" alt="ceramic bowls" height="100px" width="100px">
+			</a>
+		</div>
+		<div class="box">
+			<a href="images/big/ceramics2.jpg" class="swipebox" title="Ceramic Plate">
+			<img src="images/small/ceramics2.jpg" alt="ceramic plate" height="100px" width="100px">
+			</a>
+		</div>
+		<div class="box">
+			<a href="images/big/ceramics3.jpg" class="swipebox" title="Ceramic Bowls">
+			<img src="images/small/ceramics3.jpg" alt="ceramic bowls" height="100px" width="100px">
+			</a>
+		</div>
+		<div class="box">
+			<a href="images/big/ceramics4.jpg" class="swipebox" title="Ceramic Bowl">
+			<img src="images/small/ceramics4.jpg" alt="ceramic bowl" height="100px" width="100px">
+			</a>
+		</div>
+		<div class="box">
+			<a href="images/big/photography2.jpg" class="swipebox" title="Shy Boy">
+			<img src="images/small/photography2.jpg" alt="photograph titled shy boy" height="100px" width="100px">
+			</a>
+		</div>
+		<div class="box">
+			<a href="images/big/photography3.jpg" class="swipebox" title="heart">
+			<img src="images/small/photography3.jpg" alt="photograph titled heart" height="100px" width="100px">
+			</a>
+		</div>
+		<div class="box">
+			<a href="images/big/photography4.jpg" class="swipebox" title="where did ur heart land">
+			<img src="images/small/photography4.jpg" alt="photograph titled where did your heart land" height="100px" width="100px">
+			</a>
+		</div>
+	</div>
+</main>
+	
+<div class="social-all">
+	<div class="social-left">
+		<a class="ease-all" href="mailto:neiljgagne@gmail.com">
+			neiljgagne@gmail.com
+		</a>
+	</div>
+	
+	<div class="social-right">
+	<ul class="social">
+		<li>
+			<a class="ease-all" href="https://www.facebook.com/neil.gagne?fref=ts">
+				<i class="fa fa-facebook"></i>
+				<span class="hide-text">Facebook</spn>
+			</a>
+		</li>
+		<li>
+			<a class="ease-all" href="http://ca.linkedin.com/pub/neil-gagne/86/546/718">
+				<i class="fa fa-linkedin"></i>
+				<span class="hide-text">Twitter</spn>
+			</a>
+		</li>
+		<li>
+			<a class="ease-all" href="http://www.flickr.com/photos/94394850@N05/">
+				<i class="fa fa-flickr"></i>
+				<span class="hide-text">Google Plus</spn>
+			</a>
+		</li>
+	</ul>
+	</div>
+</div>
+<P class="copyright">COPYRIGHT © NEIL GAGNE</P>
+<script src="lib/jquery-2.0.3.min.js"></script>
+<script src="lib/ios-orientationchange-fix.js"></script>
+<script src="swipebox/jquery.swipebox.min.js"></script>
+<script type="text/javascript">
+  if ($.fn.swipebox) {
+
+    //Get largest dimension in viewport pixels
+    var maxSize = Math.max(document.documentElement.clientWidth, 
+                           document.documentElement.clientHeight);
+    maxSize *= window.devicePixelRatio ? window.devicePixelRatio : 1;
+    //Limit to 2048.
+    maxSize = Math.min(2048,maxSize); 
+    //Round up to multiple of 160 for cache efficiency (~13 variations)
+    maxSize = maxSize - (maxSize % 160) + 160;
+
+    //Set the width and height (if present) to maxSize
+    $("a.swipebox").each(function(i,e){
+        e.href = e.href.replace(/width=\d+/,"width=" + maxSize).replace(/height=\d+/,"height=" + maxSize);
+      });
+    //Launch swipebox
+    $(".swipebox").swipebox({useCSS:true, hideBarsDelay:0});
+  }
+</script>
+
+</body>
+
+</html>
+
